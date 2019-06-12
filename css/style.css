@@ -48,3 +48,16 @@ header nav a .fa{
 header nav a:hover .fa{
     color: #203e4d;
 }
+input{
+    background-color: #fb8a9b;
+    font-size: 1.5em;
+    color: white;
+    border: 0;
+    padding: 25px 100px;
+    text-transform: uppercase;
+    width: 100%;
+    letter-spacing: 2px;
+}
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
