@@ -111,6 +111,18 @@ input{
       border-left: 1px dashed #46636e;
 
   }
+  .flex{
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -ms-flex-direction: row;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  }
+
   #solution h2,
   #hosting h2{
       flex-basis: 100%;
@@ -138,6 +150,29 @@ input{
       font-size: 3em;
       margin: 25px 0 0;
       display: block;
+
+  }
+  /* PAGE MUTUALISE + DEDIE + CLOUD*/
+  .mutualise p{
+padding: 25px;
+  }
+  .mutualise h3, mutualise h4{
+      font-family: "candal", Arial;
+      font-size: 1.2em;
+      text-align: center;
+      padding: 10px; 
+  }
+  .mutualise article{
+      text-align: center;
+      border: 1px dashed;
+      margin: 25px;
+      padding: 10px;
+      -ms-flex: 1;
+      -webkit-box-flex:1;
+      flex: 1;
+      -webkit-align-self: felx-start;
+      -ms-flex-item-align: start;
+      align-self: flex-start;
 
   }
 
