@@ -103,8 +103,25 @@ input{
       display: block;
 
   }
-  .mutualise > p,
-  .dedie > p,
-  .cloud > p{
-      padding: 25px;
+
+/*------FOOTER-----*/
+
+  footer{
+      background-color: #203e4d;
+      color:#ccc;
+      text-align: center;
+      padding: 50px;
+
+  }
+  footer  a{
+      color: white;
+      padding: 15px 0;
+  }
+  footer nav{
+      font-family: "candal", sans-serif;
+      display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
   }
