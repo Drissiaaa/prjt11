@@ -175,7 +175,30 @@ padding: 25px;
       align-self: flex-start;
 
   }
+  .mutualise article ul li{
+      text-align: left;
+      font-size: 0.9em;
+      margin: 10px 0 10px 30px;
+      list-style-type: circle;
 
+  }
+  .mutualise article a{
+      color: white;
+      background-color: #fb8a9b;
+      display: block;
+      padding: 10px;
+      font-family: "candal", Arial;
+
+  }
+  .mutualise article a:hoover{
+      background-color: #ea5f77;
+  }
+  .mutualise .flex:hover article{
+      opacity: 0.65;
+  }
+.mutualise:hover article:hover{
+    opacity: 1;
+}
 /*------FOOTER-----*/
 
   footer{
