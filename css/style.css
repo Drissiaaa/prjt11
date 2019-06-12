@@ -1,0 +1,40 @@
+html{
+    font-family: ;
+    font-size: ;
+    line-height: ;
+
+}
+
+body{
+    font-family:"Open Sans", Arial ;
+    line-height: 1.8;
+    margin: 0;
+    color: #666;
+    
+
+}
+
+header nav{
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    background-color: #ffccff;
+
+}
+
+ header nav a{
+     padding: 25px;
+     font-family: candal;
+     font-size: 1.4em;
+     color: #1e3e4b;
+     -webkit-align-self: center;
+     -ms-flex-item-align: center;
+     -ms-grid-row-align: center;
+     align-self: center;
+
+}
+nav a:hover{
+
+}
