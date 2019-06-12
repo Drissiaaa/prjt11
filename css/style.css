@@ -61,3 +61,37 @@ input{
 ::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.5);
   }
+  /*-------MAIN-----*/
+  main h2{
+      font-family: candal;
+      font-size: 1.8em;
+      color: #203e4d;
+      text-align: center;
+      margin-top: 50px;
+      padding: 25px 0px;
+      border-top: 1px  dashed #46636e;
+      border-right: 1px dashed #46636e;
+      border-left: 1px dashed #46636e;
+
+  }
+  #solution h2,
+  #hosting h2{
+      flex-basis: 100%;
+  }
+  .host{
+      padding: 15px;
+  }
+  .host h3{
+      text-align: center;
+      color: #fb8a9b;
+      font-family: "candal", Arial ;
+      font-size: 1.2em ;
+      padding: 10px 0 0 ;
+  }
+  .prix{
+      color: #fb8a9b;
+      font-size: 1.4em;
+      text-align: center;
+      font-weight: bold;
+    
+  }
