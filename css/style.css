@@ -95,3 +95,16 @@ input{
       font-weight: bold;
     
   }
+  .host i{
+      color: #fb8a9b;
+      text-align: center;
+      font-size: 3em;
+      margin: 25px 0 0;
+      display: block;
+
+  }
+  .mutualise > p,
+  .dedie > p,
+  .cloud > p{
+      padding: 25px;
+  }
