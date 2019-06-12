@@ -1,43 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Perso CSS -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Candal|Dosis|Open+Sans">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Candal|Dosis|Open+Sans">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Module 11</title>
-    <head>
-        <!-----HEADEER---->
-        <header>
-            <nav class="nav">
-                <a href="index.html"><h1><img src="img/logo.png" alt="logo"></h1></a>
-                <a href="serveur-mutualise.html"><i class="fa fa-users" ></i>Serveur Mutualisé</a>
-                <a href="serveur-dedie.html"><i class="fa fa-user" ></i>Serveur Dédié</a>
-                <a href="cloud.html"><i class="fa fa-cloud" ></i>Solution "cloud"</a>
-                <a href="contact.html"><i class="fa fa-envelope" ></i>contact</a>
-            </nav>
-            
-        </header>
-    </head>
-    <body>
+</head>
 
+<body>
+    <!-----HEADEER---->
+    <header>
+        <nav class="nav">
+            <a href="index.html">
+                <h1><img src="img/logo.png" alt="logo"></h1>
+            </a>
+            <a href="serveur-mutualise.html"><i class="fa fa-users"></i>Serveur Mutualisé</a>
+            <a href="serveur-dedie.html"><i class="fa fa-user"></i>Serveur Dédié</a>
+            <a href="cloud.html"><i class="fa fa-cloud"></i>Solution "cloud"</a>
+            <a href="contact.html"><i class="fa fa-envelope"></i>contact</a>
+        </nav>
+        <section id="tagline">
+            <h1>L'hébergement à prix libre</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A provident animi nesciunt ut laboriosam,
+                quaerat inventore officia deleniti impedit fugiat quae, possimus perspiciatis alias aliquid eius placeat
+                blanditiis sed reprehenderit.</p>
+        </section>
+        <form>
+            <input type="text" placeholder="Que recherchez-vous ?">
+        </form>
+    </header>
+    <!----MAIN---->
+    <main class="container">
+        <section id="solution" class="flex">
+            <h2>Notre solution en 3 points</h2>
+            <article class="host">
+                <i class="fa fa-cogs" aria-hidden="true"></i>
+                <h3>Configuration</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ratione quod odit eligendi, soluta
+                    aspernatur magni harum laudantium quos ipsum minima sapiente eius assumenda cumque aliquid sequi
+                    non, facilis id!</p>
+            </article>
+            <article class="host">
+                <i class="fa fa-area-chart" aria-hidden="true"></i>
 
+                <h3>Monitoring</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ratione quod odit eligendi, soluta
+                    aspernatur magni harum laudantium quos ipsum minima sapiente eius assumenda cumque aliquid sequi
+                    non, facilis id!</p>
+            </article>
+            <article class="host">
+                <i class="fa fa-database" aria-hidden="true"></i>
+                <h3>Sauvegarde</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ratione quod odit eligendi, soluta
+                    aspernatur magni harum laudantium quos ipsum minima sapiente eius assumenda cumque aliquid sequi
+                    non, facilis id!</p>
+            </article>
+        </section>
+        <section id="solution" class="flex">
+            <h2>Choisissez votre type d'hébergement</h2>
+            <article class="host">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <h3>Serveur Mutualisé</h3>
+                <p class="prix">19euro / mois</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia ut voluptas similique repudiandae
+                    eveniet, quo ratione. Corporis laudantium error vitae consequatur, natus, magnam, id suscipit maxime
+                    sed nobis illo reprehenderit!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ratione quod odit eligendi, soluta
+                    aspernatur magni harum laudantium quos ipsum minima sapiente eius assumenda cumque aliquid sequi
+                    non, facilis id!</p>
+            </article>
+            <article class="host">
+                <i class="fa fa-user" aria-hidden="true"></i>
 
+                <h3>Service Dédié</h3>
+                <p class="prix">39euro / mois</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ratione quod odit eligendi, soluta
+                    aspernatur magni harum laudantium quos ipsum minima sapiente eius assumenda cumque aliquid sequi
+                    non, facilis id!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime nesciunt excepturi sed,
+                    ipsum similique quo perferendis illum dolor! In sed iste, eligendi delectus temporibus neque dolorem
+                    veniam veritatis beatae.</p>
+            </article>
+            <article class="host">
+                <i class="fa fa-cloud" aria-hidden="true"></i>
+                <h3>Service cloud</h3>
+                <p class="prix">49 euro / mois</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ratione quod odit eligendi, soluta
+                    aspernatur magni harum laudantium quos ipsum minima sapiente eius assumenda cumque aliquid sequi
+                    non, facilis id!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora assumenda nam adipisci dolores
+                    sapiente et earum doloremque impedit. Quae nam sed omnis. Nihil, quasi mollitia dolor officiis amet
+                    cum. Dolore?</p>
+            </article>
+        </section>
+    </main>
+    <!----FOOTER---->
+    <footer>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">Serveur Mutualisé</a>
+            <a href="#">Serveur dédié</a>
+            <a href="#">Solution "Cloud"</a>
+            <a href="#">contact</a>
+            <a href="#">Se connecter</a>
 
+        </nav>
+        <small>
 
+        </small>
+    </footer>
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-    </body>
 </html>

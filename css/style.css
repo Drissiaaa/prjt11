@@ -35,6 +35,16 @@ header nav{
      align-self: center;
 
 }
-nav a:hover{
+header nav a:hover{
+    color: #fb8a9b;
+}
+header nav a .fa{
+    color: #fb8a9b;
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
 
+}
+header nav a:hover .fa{
+    color: #203e4d;
 }
