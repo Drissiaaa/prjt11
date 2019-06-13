@@ -154,18 +154,21 @@ input{
   }
   /* PAGE MUTUALISE + DEDIE + CLOUD*/
   .mutualise p,
-  .dedie p,{
+  .dedie p,
+  .cloud p{
 padding: 25px;
   }
   .mutualise h3, mutualise h4,
-  .dedie h3, .dedie h4,{
+  .dedie h3, .dedie h4,
+  .cloud h3, .cloud h4{
       font-family: "candal", Arial;
       font-size: 1.2em;
       text-align: center;
       padding: 10px; 
   }
   .mutualise article,
-  .dedie article{
+  .dedie article,
+  .cloud article{
       text-align: center;
       border: 1px dashed #203e4d;
       margin: 25px;
@@ -178,7 +181,8 @@ padding: 25px;
       align-self: flex-start;
   }
   .mutualise article .option,
-  .dedie article .option{
+  .dedie article .option,
+  .cloud .option{
       background-color: #203e4d;
       text-align: center;
       padding: 25px;
@@ -186,7 +190,8 @@ padding: 25px;
       color: white;
   }
   .mutualise article ul li,
-  .dedie article ul li{
+  .dedie article ul li,
+  .cloud article ul li{
       text-align: left;
       font-size: 0.9em;
       margin: 10px 0 10px 30px;
@@ -194,7 +199,8 @@ padding: 25px;
 
   }
   .mutualise article a,
-  .dedie article a{
+  .dedie article a,
+  .cloud article a{
       color: white;
       background-color: #fb8a9b;
       display: block;
@@ -203,15 +209,18 @@ padding: 25px;
 
   }
   .mutualise article a:hover,
-  .dedie article a:hover{
+  .dedie article a:hover,
+  .cloud article a:hover{
       background-color: #ea5f77;
   }
   .mutualise .flex:hover article,
-  .dedie .flex:hover article{
+  .dedie .flex:hover article,
+  .cloud .flex:hover article{
       opacity: 0.65;
   }
 .mutualise:hover article:hover,
-.dedie:hover article:hover{
+.dedie:hover article:hover,
+.cloud:hover article:hover{
     opacity: 1;
 }
 
@@ -256,7 +265,8 @@ header nav, .flex, footer nav {
 }
 
 .mutualise article,
-	.dedie article{
+    .dedie article,
+    .cloud article{
 		-webkit-align-self: stretch;
 		    -ms-flex-item-align: stretch;
 		            -ms-grid-row-align: stretch;
