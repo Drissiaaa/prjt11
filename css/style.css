@@ -223,10 +223,43 @@ padding: 25px;
 .cloud:hover article:hover{
     opacity: 1;
 }
-
-
-
-
+/*PAGE CONTACT*/
+iframe{
+    width: 100%;
+    height: 500px;
+    opacity: 0.5;
+    border-bottom: 1px dashed #46636e;
+    border-right: 1px dashed #46636e;
+    border-left: 1px dashed #46636e;
+}
+iframe:hover{
+    opacity: 1;
+}
+.contact article{
+    text-align: center;
+    margin: 25px;
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+.contact article h3{
+    font-family: "candal", Arial;
+    font-size: 1.4em;
+    text-align: center;
+    color: #fb8a9b;
+    border-bottom: 1px dashed #fb8a9b;
+    padding:  0 0 10px;
+    margin-bottom: 25px;
+}
+.contact article abbr{
+   font-weight: bold;
+}
+.contact article a{
+    color: #fb8a9b;
+}
+.contact article .fa{
+    font-size: 2em;
+}
 
 /*------FOOTER-----*/
 
