@@ -173,7 +173,13 @@ padding: 25px;
       -webkit-align-self: felx-start;
       -ms-flex-item-align: start;
       align-self: flex-start;
-
+  }
+  .mutualise article .option{
+      background-color: #203e4d;
+      text-align: center;
+      padding: 25px;
+      margin-bottom: 10px;
+      color: white;
   }
   .mutualise article ul li{
       text-align: left;
@@ -199,6 +205,11 @@ padding: 25px;
 .mutualise:hover article:hover{
     opacity: 1;
 }
+
+
+
+
+
 /*------FOOTER-----*/
 
   footer{
