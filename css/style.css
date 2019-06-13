@@ -153,18 +153,21 @@ input{
 
   }
   /* PAGE MUTUALISE + DEDIE + CLOUD*/
-  .mutualise p{
+  .mutualise p,
+  .dedie p,{
 padding: 25px;
   }
-  .mutualise h3, mutualise h4{
+  .mutualise h3, mutualise h4,
+  .dedie h3, .dedie h4,{
       font-family: "candal", Arial;
       font-size: 1.2em;
       text-align: center;
       padding: 10px; 
   }
-  .mutualise article{
+  .mutualise article,
+  .dedie article{
       text-align: center;
-      border: 1px dashed;
+      border: 1px dashed #203e4d;
       margin: 25px;
       padding: 10px;
       -ms-flex: 1;
@@ -174,21 +177,24 @@ padding: 25px;
       -ms-flex-item-align: start;
       align-self: flex-start;
   }
-  .mutualise article .option{
+  .mutualise article .option,
+  .dedie article .option{
       background-color: #203e4d;
       text-align: center;
       padding: 25px;
       margin-bottom: 10px;
       color: white;
   }
-  .mutualise article ul li{
+  .mutualise article ul li,
+  .dedie article ul li{
       text-align: left;
       font-size: 0.9em;
       margin: 10px 0 10px 30px;
       list-style-type: circle;
 
   }
-  .mutualise article a{
+  .mutualise article a,
+  .dedie article a{
       color: white;
       background-color: #fb8a9b;
       display: block;
@@ -196,13 +202,16 @@ padding: 25px;
       font-family: "candal", Arial;
 
   }
-  .mutualise article a:hoover{
+  .mutualise article a:hover,
+  .dedie article a:hover{
       background-color: #ea5f77;
   }
-  .mutualise .flex:hover article{
+  .mutualise .flex:hover article,
+  .dedie .flex:hover article{
       opacity: 0.65;
   }
-.mutualise:hover article:hover{
+.mutualise:hover article:hover,
+.dedie:hover article:hover{
     opacity: 1;
 }
 
@@ -244,4 +253,13 @@ header nav, .flex, footer nav {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             flex-direction: column;
+}
+
+.mutualise article,
+	.dedie article{
+		-webkit-align-self: stretch;
+		    -ms-flex-item-align: stretch;
+		            -ms-grid-row-align: stretch;
+		        align-self: stretch;
+    }
 }
